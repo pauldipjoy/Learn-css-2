@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        a.ex1 {
+            color: blue;
+            text-decoration: none;
+        }
+
+
+        /* unvisited link */
+        a.ex2:link {
+            color: red;
+            text-decoration: none;
+            background-color: yellow;
+
+        }
+
+        /* visited link */
+        a.ex2:visited {
+            color: green;
+            text-decoration: none;
+            background-color: sandybrown;
+
+        }
+
+        /* mouse over link */
+        a.ex2:hover {
+            color: hotpink;
+            text-decoration: none;
+            background-color: seagreen;
+
+        }
+
+        /* selected link */
+        a.ex2:active {
+            color: blue;
+            text-decoration: none;
+            background-color: violet;
+
+        }
+
+
+        a.ex3:link,
+        a.ex3:visited {
+            background-color: #f44336;
+            color: black;
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block
+        }
+
+        a.ex3:hover,
+        a.ex3:active {
+            background-color: yellow;
+        }
+
+
+        a.ex4:link,
+        a.ex4:visited {
+            background-color: white;
+            color: black;
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border: 2px solid black;
+        }
+
+        a.ex4:hover,
+        a.ex4:active {
+            background-color: green;
+            color: white;
+            
+            font-family: 'Courier New', Courier, monospace;
+
+            cursor:progress;
+
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1> THIS IS LINK </h1>
+
+    <b><a class="ex1" href="#" target="_blank"> click me </a></b>
+
+
+    <p><b><a class="ex2" href="#" target="_blank">This is a link</a></b></p>
+
+
+    <a class="ex3" href="#" target="_blank">This is a link</a> <br><br>
+
+
+    <a class="ex4" href="#" target="_blank"> This is a link </a>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        :root {
+            
+            --primary-color: green;
+            --secondary-color: yellow;
+        }
+
+        .body {
+            background-color: var(--primary-color);
+        }
+
+
+        h1 {
+            border-bottom: 2px solid var(--primary-color);
+        }
+
+
+        .container {
+            background-color: var(--secondary-color, red);
+            color: var(--primary-color);
+            padding: 15px;
+        }
+
+        button {
+            background-color: var(--secondary-color);
+            color: var(--primary-color);
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+
+        @media screen and (min-width:600px) {
+
+            :root {
+                --primary-color: brown;
+                --secondary-color: orange;
+            }
+
+
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>DIPJOY</h1>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam praesentium dolor at ipsa, vitae, numquam
+            illum consequatur a eveniet magni accusamus sapiente error quibusdam earum.</P>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam praesentium dolor at ipsa, vitae, numquam
+            illum consequatur a eveniet magni accusamus sapiente error quibusdam earum.</P>
+        <button>YES</button>
+        <button>NO</button>
+    </div>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

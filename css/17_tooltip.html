@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .tooltip {
+
+            position: relative;
+        }
+
+        .tooltip .tooltip-text {
+
+            visibility: hidden;
+
+            width: 200px;
+            background-color: indigo;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            position: absolute;
+            top: 20px;
+            left: 15px;
+            z-index: 1;
+
+        }
+
+        .tooltip:hover .tooltip-text {
+
+            visibility: visible;
+
+
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <a href="#" class="tooltip">HTML
+        <span class="tooltip-text">Hypertext Markup Language</span>
+    </a>
+
+
+</body>
+
+</html>
